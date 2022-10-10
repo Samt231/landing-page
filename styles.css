@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Roboto, sans-serif;
+    margin: 0;
 }
     ul {
     list-style-type: none;
@@ -24,7 +25,7 @@ body {
   .right-links {
     display: flex;
     justify-content: center;
-    gap: 16px;
+    gap: 24px;
     font-size: 18px;
   }
 
@@ -45,7 +46,7 @@ body {
   .left {
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 375px;
     gap: 8px;
     margin-right: 16px;
     
@@ -62,7 +63,7 @@ body {
     color: #e5e7eb;
   }
 
-  button {
+  .left button {
     font-family: Roboto, sans-serif;
     border: none;
     border-radius: 8px;
@@ -90,13 +91,11 @@ body {
     text-align: center;
  }
 
- .image {
+ .image img {
     width: 100px;
     height: 100px;
-    border-radius: 18px;
-    background-color: #1F2937;
+    border-radius: 8px;
  }
-
 
  .pic {
     max-width: 200px;
@@ -117,6 +116,7 @@ body {
     color: #1F2937;
     justify-content: center;
     max-width: 825px;
+    font-weight: 100;
  }
 
  .author {
@@ -131,14 +131,27 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    width: 675px;
+    width: 900px;
     padding: 32px;
+    gap: 42px;
+    margin: 75px 275px;
   }
 
   .middle {
     display: flex;
     flex-direction: column;
     gap: 8px;
+  }
+
+  .second button {
+    font-family: Roboto, sans-serif;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: #3882f6;
+    padding: 8px 16px;
+    width: 100px;
+    color: white;
+    margin-left: 12px;
   }
 
   .footer {
@@ -148,4 +161,9 @@ body {
     align-items: center;
     justify-content: center;
     display: flex;
+  }
+
+  .main {
+    font-size: 24pt;
+    font-weight: bold;
   }
