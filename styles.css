@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: Roboto, sans-serif;
 }
     ul {
     list-style-type: none;
@@ -10,7 +11,7 @@ body {
   
   a {
     text-decoration: none;
-    color: #e5e7eb
+    color: #e5e7eb;
   }
 
   .header {
@@ -37,21 +38,22 @@ body {
     justify-content: center;
     background-color: #1F2937;
     padding: 50px;
-    gap: 12px;
+    gap: 16px;
+    align-items: center
   }
 
   .left {
-    background-color: ;
     display: flex;
     flex-direction: column;
     width: 300px;
     gap: 8px;
+    margin-right: 16px;
     
   }
 
   .main {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: bold;
     color: #f9faf8;
   }
 
@@ -64,7 +66,86 @@ body {
     font-family: Roboto, sans-serif;
     border: none;
     border-radius: 8px;
-    background: #eee;
+    background: #3882f6;
     padding: 8px 16px;
     width: 100px;
+    color: white
+  }
+
+  .title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 24px;
+  }
+
+ .info {
+        display: flex; 
+        justify-content: center;
+        gap: 52px;
+        margin-bottom: 32px;
+ }
+
+ .two {
+    text-align: center;
+ }
+
+ .image {
+    width: 100px;
+    height: 100px;
+    border-radius: 18px;
+    background-color: #1F2937;
+ }
+
+
+ .pic {
+    max-width: 200px;
+ }
+
+ .three {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .words {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    justify-content: center;
+    max-width: 825px;
+ }
+
+ .author {
+    align-self: flex-end;
+    margin-right: 350px;
+    font-weight: bold;
+ }
+
+ .four {
+    display: flex;
+    background-color: #3882f6;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 675px;
+    padding: 32px;
+  }
+
+  .middle {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .footer {
+    height: 50px;
+    background: #1F2937;
+    color: #f9faf8;
+    align-items: center;
+    justify-content: center;
+    display: flex;
   }
